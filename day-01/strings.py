@@ -1,24 +1,25 @@
-message = "hello im akif"
+##Updated Strings
+String = "My name is Ammar"
 
-print(message[2])
-print(message[-1])
+print(String[4])
+print(String[-1])
 
-print(message[0:5])
+print(String[-5:])
 
-print(message)
+print(String)
+print(len(String))
 
-# string_name[start : stop]
 
 # methods
-print(message.upper())
-print(message.title())
+print(String.capitalize())
+print(String.title())
 
-st = "   a    "
+st = " Man "
 print(st.strip())
 print(st.lstrip())
 print(st.rstrip())
-
-print(message.replace("hello", "Hey!"))
-
-s = "a,b,c"
+print(String.replace("My", "my!"))
+print("Message".startswith("M"))
+print("Hassan".endswith("a"))
+s = "Monday,Tuesday,Wednesday"
 print(s.split(","))
