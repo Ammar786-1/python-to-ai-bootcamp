@@ -1,24 +1,25 @@
-def analyze(marks):
+##Updated
+def result(marks):
     total = sum(marks)
-    avg = total / len(marks)
+    average = total / len(marks)
     
-    if avg > 90:
+    if average > 90:
         print("Excellent")
-    elif avg>70:
+    elif average>70:
         print("Normal")
-    elif avg > 50:
+    elif average > 50:
         print("Needs improvement")
     else:
         print("Bad Result")
         
-    
-    for i in range(0,4):
-        print(marks[i])
+    print("Marks:")
+    for i in marks:
+        print(i)
     
     print("Total :", total)
-    print("Avg: ", round(avg, 2))
+    print("Avg: ", average)
     
 
-student_marks = [40, 80, 90, 100, 50]
+student_marks = [45, 100, 97, 34, 45]
 
-analyze(student_marks)
+result(student_marks)
