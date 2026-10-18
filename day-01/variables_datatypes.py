@@ -1,56 +1,53 @@
-# print("hello world!")
-# # print(var)
+print("Hello World!")
+x="Ammar"
+print("Hello"," ",x)
 
-# # comments
+#Operators
+print(45*4)
+x=5
+print(x is 5)
+print(x+4)
+print(6%1)
+a = 10
+b = 3
+print(a + b)          
+print(a / b)          
+print(46 // b)         
+print(a % b)          
+print(2 ** b)         
+print(a >= b)         
+print(a != b)        
+print(a > 5 and b < 5) 
 
-# # print("akif 1")
-# # print("akif 1")
-# # print("akif 1")
 
-# # int var = 1;
-# # var = "akif" // assignment operator 
 
-# # == //comparison operator
-# # no = 1
-# # dec = 1.5
+#Updated input 
+x=int(input("Enter a number"))
+print(x)
+print(x+1)
+print(type(x))
 
-# VAR = ".."
 
-# # print(type(no))
+# #Updated conditional statements
 
-# # no = float(input("enter a no :")) # string
-# # print(no)
-# # print(type(no))
+num=int(input("Enter a number"))
+if num %2== 0:
+  print("Even")
+elif num%2!=0:
+  print("Odd")
+else:
+  print("0")
+#Updated Loops    
+for i in range(1,6,-2):
+    print(i)
 
-# # += // pre 
-# # =+ // post 
-
-# # conditional statements
-
-# # num = int(input("enter a value: "))
-
-# # # -2, -1, 0, 1, 2
-# # if num > 0:
-# #     print("positive")
-# # elif num < 0:
-# #     print("negitive number")
-# # else:
-# #     print("the number is ZERO!")
-    
-    
-# for i in range(1,6,2):
-#     print(i)
-# count = 1     0   =  0    + 1 => 0 = 1
-# cont += 1 , count = count + 1
-
-# left (variable --> count) = right (value), 1 
-# count = 1
-
-# name = "akif"
-
-for number in range(1,8):
-    if number == 2:
+##Updated continue and braek 
+i=5 
+while i<=10:
+    if i==7:
         continue
-    if number == 5:
+    print(i)   
+    if i==10:
         break
-    print(number)
+        
+    i+=1
